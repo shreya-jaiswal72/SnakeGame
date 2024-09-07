@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="./video/001.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="body">
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">HiScore: 0</div>
+        <div id="board"></div>
+    </div>
+
+    <!-- Arrow Keys for Mobile Devices -->
+    <div class="mobile-controls">
+        <button class="arrow" id="up">⬆️</button>
+        <button class="arrow" id="left">⬅️</button>
+        <button class="arrow" id="right">➡️</button>
+        <button class="arrow" id="down">⬇️</button>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
+
